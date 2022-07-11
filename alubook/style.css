@@ -1,0 +1,14 @@
+@import url("./styles/header.css");
+
+
+:root{ 
+    --background-color: #EBECEE;
+    --header-background-color: #FFFFFF;
+    --secundary-color :#EB9B00;
+    
+}
+
+body { 
+    background-color: var(--background-color);
+}
+
