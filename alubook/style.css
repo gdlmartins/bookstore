@@ -1,14 +1,14 @@
 @import url("./styles/header.css");
+@import url("./styles/banner.css");
 
 
 :root{ 
     --text-main-font:'Poppins';
     --background-color: #EBECEE;
     --header-background-color: #FFFFFF;
+    --text-white: #FFFFFF;
     --secundary-color :#EB9B00;
     --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-
-    
 }
 
 body { 
@@ -17,4 +17,3 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
