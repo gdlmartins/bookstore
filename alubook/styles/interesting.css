@@ -1,0 +1,60 @@
+.interesting{ 
+    background-color: var(--background-color);
+ 
+}
+.interesting__container{ 
+    background-color: var(--header-background-color);
+    margin: 1em;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 1px rgba(144, 144, 144, 0.815);
+}
+.interesting__text{ 
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.interesting__title{ 
+    color: var(--secundary-color);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.interesting__img img{ 
+    width: 140px;
+    padding: 0 0 1em 0
+
+}
+.intersting__btn button{ 
+    background-color: var(--secundary-color);
+    border: none;
+    color: var(--text-white);
+    width: 140px;
+    padding: 1em;
+    font-size:16px;
+    font-weight: 700;
+}
+.interesting__container-sides{ 
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 1.5em 0;
+}
+
+.interesting__text{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    align-items: center;
+}
+
+.interesting__text__title{ 
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 1em;
+}

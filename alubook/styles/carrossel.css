@@ -1,5 +1,5 @@
 .carrossel{ 
-    background-color: var(--header-background-color);
+    background-color: var(-background-color);
 }
 
 .carrossel__titulo{ 
@@ -9,12 +9,13 @@
     padding: 1em 0 0.5em 0 ;
     text-align: center;
     text-transform: uppercase;
+    background-color: var(--header-background-color);
 }
 
 .swiper-slide img{ 
     width: 100%;
 }
-.swiper-button-prev { 
+.swiper-button-prev, .swiper-button-next { 
     display: none;
 }
 .swiper-pagination{ 
