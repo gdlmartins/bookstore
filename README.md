@@ -6,7 +6,7 @@ Used css, html just one part that js was used in for the carrossel.
 
 use a mobile to see in the right size please. 
 
-http://mobilefirstbookstore.surge.sh 
+https://mobilefirstbookstore.surge.sh 
      
 
 ![Screen Shot 2022-07-13 at 8 38 57 pm](https://user-images.githubusercontent.com/87931081/178735418-9ef21243-c8f0-4dd1-ab6c-b0986685377e.png)
