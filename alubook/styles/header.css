@@ -18,11 +18,9 @@
     display: flex;
     align-items: center;
 }
-
 .img__container{ 
     padding:  0.5rem;
 }
-
 .lista-menu { 
     position: absolute;
     display: none;
@@ -30,17 +28,14 @@
     background-color: var(--header-background-color);
     width: 70%;
 }
-
 .lista-menu-items, .lista-menu-title{ 
     padding: 1rem;
 }
-
 .lista-menu__link, .lista-menu-title{ 
 text-decoration: none;
 text-transform: uppercase;
 
 }
-
 .lista-menu-title{ 
     color: var(--secundary-color );
     font-weight: 700;
