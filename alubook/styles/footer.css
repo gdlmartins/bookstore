@@ -18,6 +18,7 @@
 .recentVisited__title{ 
     font-weight: 300;
     margin: 1em auto;
+    text-align: center;
 }
 
 .recentVisited__topics-links{
