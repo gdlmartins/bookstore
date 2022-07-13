@@ -1,0 +1,40 @@
+.footer__container{
+    background-color: var(--white-background-color);
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentVisited{ 
+    background: var(--blue-gradient);
+    color: var(--text-white);
+    padding:1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentVisited__title{ 
+    font-weight: 300;
+    margin: 1em auto;
+}
+
+.recentVisited__topics-links{
+    /* margin: 1em 0; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.recentVisited__topics-links a{ 
+    color: var(---text-white);
+    font-weight: 700;
+    font-size:14px;
+    text-decoration: none;
+    padding: 16px 22px;
+    background-color: var(--secundary-color);
+}
+
+

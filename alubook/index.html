@@ -71,6 +71,7 @@
     <p class="banner__body">Find what you are looking for</p>
     <input type="search" placeholder="What will you read next?" type="text" class="banner__search">
   </section>
+
   <section class="carrossel">
     <h2 class="carrossel__titulo">
       New Arrives
@@ -108,34 +109,108 @@
             </p>
           </div>
           <div class="interesting__icons">
-            <img src="./img/Favoritos.svg"/>
-            <img src="./img/Compras.svg"/>
-            
+            <img src="./img/Favoritos.svg" />
+            <img src="./img/Compras.svg" />
+
             <div class="interesting__icons-container"></div>
           </div>
         </div>
+
+        <div class="interesting__container-sides">
+          <div class="interesting__img"><img src="./img/newbooks/Perfil-escritora 2.svg" /></div>
+          <div class="intersting__btn"><button>Learn more</button></div>
+        </div>
+
+      </div>
+    </section>
+    <section class="carrossel">
+      <h2 class="carrossel__titulo">
+        BEST SELLERS
+      </h2>
+
+      <div class="swiper-pagination"></div>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./img/newbooks/Angular.svg" /></div>
+          <div class="swiper-slide"><img src="./img/newbooks/ApacheKafka.svg"></div>
+          <div class="swiper-slide"><img src="./img/newbooks/Gestao2.svg"> </div>
+          <div class="swiper-slide"><img src="./img/newbooks/Nodejs.svg" /></div>
+          <div class="swiper-slide"><img src="./img/newbooks/ReactNative.svg" /></div>
+
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <section class="interesting">
+        <div class="interesting__container">
+
+          <div class="interesting__container-sides">
+            <div class="interesting__container_text">
+              <h3 class="interesting__title">You might like it.</h3>
+            </div>
+            <div class="interesting__text">
+              <h2 class="interesting__text__title">Angular 11 e Firebase</h2>
+              <p class="interesting__text__body">
+                Building an application integraded with Google's plataform
+              </p>
+            </div>
+            <div class="interesting__icons">
+              <img src="./img/Favoritos.svg" />
+              <img src="./img/Compras.svg" />
+
+              <div class="interesting__icons-container"></div>
+            </div>
+          </div>
 
           <div class="interesting__container-sides">
             <div class="interesting__img"><img src="./img/newbooks/Perfil-escritora 2.svg" /></div>
             <div class="intersting__btn"><button>Learn more</button></div>
           </div>
 
+        </div>
+      </section>
+
+    </section>
+    <section class="footer__container">
+      <div class="recentVisited">
+        <div class="recentVisited__topics">
+          <h2 class="recentVisited__title">THE MOST VIEWED TOPICS RECENTLY </h2>
+          <div class="recentVisited__topics-container">
+            <div class="recentVisited__topics-links">
+              <a href="#">Android</a>
+              <a href="#">Digital Marketing</a>
+              <a href="#">Agile</a>
+            </div>
+            <div class="recentVisited__topics-links">
+              <a href="#">Startups</a>
+              <a href="#">HTML & CSS</a>
+              <a href="#">Python</a>
+            </div>
+            <div class="recentVisited__topics-links">
+              <a href="#">OOP</a>
+              <a href="#">Java</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-
-  </section>
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.swiper', {
-      spaceBetween: 10,
-      slidesPerView: 3,
-      loop: "true",
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-      }
-    });
-  </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        loop: "true",
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        }
+      });
+    </script>
 </body>
 
 </html>

@@ -1,6 +1,5 @@
 .interesting{ 
     background-color: var(--background-color);
- 
 }
 .interesting__container{ 
     background-color: var(--header-background-color);
@@ -10,10 +9,8 @@
     box-shadow: 0 2px 4px 1px rgba(144, 144, 144, 0.815);
 }
 .interesting__text{ 
-    
     display: flex;
     justify-content: center;
-
 }
 
 .interesting__title{ 
@@ -25,7 +22,6 @@
 .interesting__img img{ 
     width: 140px;
     padding: 0 0 1em 0
-
 }
 .intersting__btn button{ 
     background-color: var(--secundary-color);
@@ -51,6 +47,7 @@
     justify-content: center;
     padding: 1em;
     align-items: center;
+    color: var(--text-blue);
 }
 
 .interesting__text__title{ 

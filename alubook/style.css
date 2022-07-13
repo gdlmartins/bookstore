@@ -2,13 +2,16 @@
 @import url("./styles/banner.css");
 @import url("./styles/carrossel.css");
 @import url("./styles/interesting.css");
+@import url("./styles/footer.css");
 
 
 :root{ 
     --text-main-font:'Poppins';
     --background-color: #EBECEE;
     --header-background-color: #FFFFFF;
+    --white-background-color: #FFFFFF;
     --text-white: #FFFFFF;
+    --text-blue:#002F52;
     --secundary-color :#EB9B00;
     --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
